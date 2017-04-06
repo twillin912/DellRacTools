@@ -1,6 +1,6 @@
 [System.Diagnostics.CodeAnalysis.SuppressMessage('PSUseDeclaredVarsMoreThanAssigments', '', Scope='*', Target='SuppressImportModule')]
 $SuppressImportModule = $true
-. $PSScriptRoot\Shared.ps1
+. $PSScriptRoot/../Shared.ps1
 
 $AppVeyorPath = Join-Path -Path $ProjectRoot -Child "appveyor.yml"
 $ChangeLogPath = Join-Path -Path $ProjectRoot -Child "CHANGELOG.md"
@@ -111,6 +111,4 @@ Describe 'Module manifest' {
     }
 
 }
-
-
 

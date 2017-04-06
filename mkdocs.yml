@@ -1,0 +1,9 @@
+site_name: DellRacTools Documentation
+repo_url: https://github.com/twillin912/DellRacTools
+theme: readthedocs
+pages:
+  - Home: index.md
+  - DellRacTools Basics:
+    - Quick Start: quickstart.md
+  - Functions:
+

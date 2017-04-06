@@ -5,5 +5,3 @@ if (!$SuppressImportModule) {
     Import-Module "$env:BHPSModuleManifest" -Scope Global
 }
 
-
-
